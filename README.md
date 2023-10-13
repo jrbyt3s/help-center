@@ -1,8 +1,32 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a react app with vite
 
-Currently, two official plugins are available:
+```
+npm create vite@latest
+```
+after that write the project name, then chose: react-swc
+other form:
+```
+npm create vite@latest my-name-app --template react-swc
+```
+## run the react app:
+```
+cd my-name-app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+npm install
+npm run dev
+```
+
+## install dependencies
+
+to install dependencies, stop the react app, then put the following commands
+
+### prop-types:
+```
+npm install --save prop-types
+```
+### react-router-dom:
+```
+npm i react-router-dom
+```
