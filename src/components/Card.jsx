@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 const Card = ({ data }) => {
   const { title, image, text } = data;
@@ -11,8 +12,8 @@ const Card = ({ data }) => {
           <h3 className="card__title">{title}</h3>
         </div>
         <div className="card__face">
-          <p className="card__text">{text}</p>
-          <a href="#" className="button button--primary">Ver preguntas</a>
+          <p className="card__text">{text}</p>          
+          <Link to="/category" className='button button--primary'>Ver preguntas</Link>
         </div>
       </div>
     </div>
