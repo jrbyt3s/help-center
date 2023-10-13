@@ -12,8 +12,8 @@ const Card = ({ data }) => {
           <h3 className="card__title">{title}</h3>
         </div>
         <div className="card__face">
-          <p className="card__text">{text}</p>          
-          <Link to="/category" className='button button--primary'>Ver preguntas</Link>
+          <p className="card__text">{text}</p>
+          <Link to="/help-center/categorias" className='button button--primary'>Ver preguntas</Link>
         </div>
       </div>
     </div>
